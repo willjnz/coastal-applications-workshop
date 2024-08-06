@@ -17,17 +17,24 @@ wget https://s3.ap-southeast-2.amazonaws.com/files.auspatious.com/coastlines/dat
 
 * Element-84's Earth Search STAC Catalog: `https://earth-search.aws.element84.com/v1`
 
+## Notebooks
 
-## Getting started with Sentinel-2
+### Getting started with Sentinel-2
 
-1. [Find, load and visualise Sentinel-2 data](notebooks/Sentinel-2_GettingStarted.ipynb)
-2. [Basic cloud masking for Sentinel-2](notebooks/Sentinel-2_CloudMasking.ipynb)
-3. [Combining Sentinel-2 with tide model](notebooks/Sentinel-2_TideFiltering.ipynb)
-4. [High- and low-tide composites](notebooks/Sentinel-2_HighLowComposites.ipynb)
+[Find, load and visualise Sentinel-2 data](notebooks/Sentinel-2_GettingStarted.ipynb)
 
-## Coastlines Modelling with Landsat
+### High- and Low-Tide Composites with Sentinel-2
 
-1. [Find, load and visualise Landsat data](notebooks/Landsat_GettingStarted.ipynb)
-2. [Basic cloud masking for Landsat](notebooks/Landsat_CloudMasking.ipynb)
-3. [Step-by-step coastlines algorithm](notebooks/Coastlines_StepByStep.ipynb)
-4. [Intertidal elevation modelling](notebooks/Sentinel-2_Intertiday.ipynb)
+[High- and low-tide composites](notebooks/Sentinel-2_HighLowComposites.ipynb)
+
+### Getting started with Landsat
+
+[Find, load and visualise Landsat data](notebooks/Landsat_GettingStarted.ipynb)
+
+### Coastline Extraction with Landsat 
+
+[Step-by-step coastlines algorithm](notebooks/Coastlines_StepByStep.ipynb)
+
+### Intertidal elevation modelling
+
+4. [Intertidal elevation modelling](notebooks/Sentinel-2_Intertidal.ipynb)
