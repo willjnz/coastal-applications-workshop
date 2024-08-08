@@ -33,10 +33,15 @@ wget https://s3.ap-southeast-2.amazonaws.com/files.auspatious.com/coastlines/dat
 
 ### Coastline Extraction with Landsat 
 
-[Step-by-step coastlines algorithm](notebooks/Coastlines_StepByStep.ipynb)
+[Step-by-step coastlines algorithm](notebooks/Landsat_CoastalChange.ipynb)
 
 ### Intertidal elevation modelling
 
 TODO: adapt https://github.com/GeoscienceAustralia/dea-intertidal/blob/rbt/notebooks/Intertidal_elevation_stac.ipynb
 
 <!-- [Intertidal elevation modelling](notebooks/Sentinel-2_Intertidal.ipynb) -->
+
+
+### Mangroves
+
+For another example, we could use global mangrove watch to identify/quantify mangroves.
