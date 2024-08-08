@@ -4,13 +4,27 @@ This workshop contains a range of notebooks, broken down into sections.
 
 ## Requirements and environment setup
 
-Tide data access for south east asia.
+First, clone this repository: `git clone git@github.com:auspatious/coastal-applications-workshop.git`
+
+Next, download tide model parameters for south east asia.
 
 ```bash
 wget https://s3.ap-southeast-2.amazonaws.com/files.auspatious.com/coastlines/data/tide_models_vn_ph_2022.zip \
               -O /tmp/tide_models.zip && \
             unzip /tmp/tide_models.zip -d /tmp/tide_models_temp && \
             mv /tmp/tide_models_temp ~/tide_models
+```
+
+Finally, set up a custom Pyuthon environment  for the workshop.
+
+```
+MYENV=coastlines 
+python -m venv ~/venvs/$MYENV
+realpath /env/lib/python3.10/site-packages > ~/venvs/$MYENV/lib/python3.10/site-packages/base_venv.pth
+source ~/venvs/$MYENV/bin/activate
+cd coastal-applications-workshop
+pip install -r requirements.txt
+python -m ipykernel install --user --name=$MYENV --display-name "Coastal Environment"
 ```
 
 ## Key links and references
