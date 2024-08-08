@@ -37,4 +37,6 @@ wget https://s3.ap-southeast-2.amazonaws.com/files.auspatious.com/coastlines/dat
 
 ### Intertidal elevation modelling
 
-4. [Intertidal elevation modelling](notebooks/Sentinel-2_Intertidal.ipynb)
+TODO: adapt https://github.com/GeoscienceAustralia/dea-intertidal/blob/rbt/notebooks/Intertidal_elevation_stac.ipynb
+
+<!-- [Intertidal elevation modelling](notebooks/Sentinel-2_Intertidal.ipynb) -->
