@@ -51,11 +51,8 @@ python -m ipykernel install --user --name=$MYENV --display-name "Coastal Environ
 
 ### Intertidal elevation modelling
 
-TODO: adapt https://github.com/GeoscienceAustralia/dea-intertidal/blob/rbt/notebooks/Intertidal_elevation_stac.ipynb
+[Worked example of intertidal elevation modelling](notebooks/examples/Intertidal_elevation_stac.ipynb)
 
-<!-- [Intertidal elevation modelling](notebooks/Sentinel-2_Intertidal.ipynb) -->
+### Sentinel-1 Water Detection
 
-
-### Mangroves
-
-For another example, we could use global mangrove watch to identify/quantify mangroves.
+[Worked example using Sentinel-1 to detect water](notebooks/examples/Radar_water_detection.ipynb)
