@@ -9,7 +9,7 @@ First, clone this repository: `git clone git@github.com:auspatious/coastal-appli
 Next, download tide model parameters for south east asia.
 
 ```bash
-wget https://s3.ap-southeast-2.amazonaws.com/files.auspatious.com/coastlines/data/tide_models_vn_ph_2022.zip \
+wget https://files.auspatious.com/coastlines/data/tide_models_vn_ph_2022.zip \
               -O /tmp/tide_models.zip && \
             unzip /tmp/tide_models.zip -d /tmp/tide_models_temp && \
             mv /tmp/tide_models_temp ~/tide_models
@@ -56,3 +56,8 @@ python -m ipykernel install --user --name=$MYENV --display-name "Coastal Environ
 ### Sentinel-1 Water Detection
 
 [Worked example using Sentinel-1 to detect water](notebooks/examples/Radar_water_detection.ipynb)
+
+rm -rf ~/tide_models && \
+wget https://files.auspatious.com/coastlines/data/tide_models_fiji.zip -O /tmp/tide_models.zip && \
+unzip /tmp/tide_models.zip -d /tmp/tide_models_temp && \
+mv /tmp/tide_models_temp ~/tide_models
