@@ -1,1 +1,2 @@
 git+https://github.com/auspatious/coastlines
+git+https://github.com/GeoscienceAustralia/dea-intertidal.git

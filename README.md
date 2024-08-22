@@ -15,16 +15,16 @@ wget https://files.auspatious.com/coastlines/data/tide_models_vn_ph_2022.zip \
             mv /tmp/tide_models_temp ~/tide_models
 ```
 
-Finally, set up a custom Pyuthon environment  for the workshop.
+Finally, set up a custom Python environment  for the workshop.
 
-```
-MYENV=coastlines 
+```bash
+MYENV=coastalapps 
 python -m venv ~/venvs/$MYENV
 realpath /env/lib/python3.10/site-packages > ~/venvs/$MYENV/lib/python3.10/site-packages/base_venv.pth
 source ~/venvs/$MYENV/bin/activate
 cd coastal-applications-workshop
 pip install -r requirements.txt
-python -m ipykernel install --user --name=$MYENV --display-name "Coastal Environment"
+python -m ipykernel install --user --name=$MYENV --display-name "Coastal Workshop"
 ```
 
 ## Key links and references
@@ -56,8 +56,3 @@ python -m ipykernel install --user --name=$MYENV --display-name "Coastal Environ
 ### Sentinel-1 Water Detection
 
 [Worked example using Sentinel-1 to detect water](notebooks/examples/Radar_water_detection.ipynb)
-
-rm -rf ~/tide_models && \
-wget https://files.auspatious.com/coastlines/data/tide_models_fiji.zip -O /tmp/tide_models.zip && \
-unzip /tmp/tide_models.zip -d /tmp/tide_models_temp && \
-mv /tmp/tide_models_temp ~/tide_models
