@@ -33,26 +33,29 @@ python -m ipykernel install --user --name=$MYENV --display-name "Coastal Worksho
 
 ## Notebooks
 
-### Getting started with Sentinel-2
-
-[Find, load and visualise Sentinel-2 data](notebooks/Sentinel-2_GettingStarted.ipynb)
-
-### High- and Low-Tide Composites with Sentinel-2
-
-[High- and low-tide composites](notebooks/Sentinel-2_HighLowComposites.ipynb)
+These three notebooks will be a core part of the workshop.
 
 ### Getting started with Landsat
 
-[Find, load and visualise Landsat data](notebooks/Landsat_GettingStarted.ipynb)
+[Find, load and visualise Landsat data](notebooks/01_Landsat_GettingStarted.ipynb)
+
+### High- and Low-Tide Composites with Sentinel-2
+
+[High- and low-tide composites](notebooks/02_Sentinel-2_HighLowComposites.ipynb)
 
 ### Coastline Extraction with Landsat 
 
-[Step-by-step coastlines algorithm](notebooks/Landsat_CoastalChange.ipynb)
+[Step-by-step coastlines algorithm](notebooks/03_Landsat_CoastalChange.ipynb)
 
-### Intertidal elevation modelling
+### Extra examples
 
-[Worked example of intertidal elevation modelling](notebooks/examples/Intertidal_elevation_stac.ipynb)
+More worked examples that can be run through to learn more about working with
+EO data in Python.
 
-### Sentinel-1 Water Detection
-
-[Worked example using Sentinel-1 to detect water](notebooks/examples/Radar_water_detection.ipynb)
+* [Getting started with Sentinel-2 data](notebooks/examples/01_Sentinel-2_GettingStarted.ipynb)
+* [Intertidal elevation modelling](notebooks/examples/02_IntertidalElevation.ipynb)
+from Digital Earth Australia
+* [Use Sentinel-1 to detect water](notebooks/examples/03_Sentinel-1_WaterDetection.ipynb)
+from Digital Earth Africa
+* [Using Sentinel-1 to visualise shipping density](notebooks/examples/04_Sentinel-1_ShippingDensity.ipynb)
+* [Machine learning classification using Sentinel-2](notebooks/examples/05_Sentinel-2_MachineLearning.ipynb)
