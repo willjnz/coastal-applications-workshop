@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "training_revised",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.219665760637056, 6.97366840130297 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.208776635864538, 6.941223982038098 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.226555071764636, 6.957446191670535 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.22855720813763, 6.983224254860507 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.210555817184868, 6.942111343147736 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.227000981869978, 6.981668028592853 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.228334253084967, 6.982109479597145 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.211889088399872, 6.941888388095062 ] } },
+{ "type": "Feature", "properties": { "Class": 0, "Ecosys_Typ": "Terrestrial Other" }, "geometry": { "type": "Point", "coordinates": [ 122.088278348097276, 6.905662651136868 ] } },
+{ "type": "Feature", "properties": { "Class": 0, "Ecosys_Typ": "Terrestrial Other" }, "geometry": { "type": "Point", "coordinates": [ 122.083386714241641, 6.904980408675691 ] } },
+{ "type": "Feature", "properties": { "Class": 0, "Ecosys_Typ": "Terrestrial Other" }, "geometry": { "type": "Point", "coordinates": [ 122.096888872231474, 6.904645976096682 ] } },
+{ "type": "Feature", "properties": { "Class": 0, "Ecosys_Typ": "Terrestrial Other" }, "geometry": { "type": "Point", "coordinates": [ 122.081241886634913, 6.906599062358092 ] } },
+{ "type": "Feature", "properties": { "Class": 1, "Ecosys_Typ": "Permanent Water" }, "geometry": { "type": "Point", "coordinates": [ 122.231584937752913, 6.902822203765822 ] } },
+{ "type": "Feature", "properties": { "Class": 2, "Ecosys_Typ": "Tidal Flat" }, "geometry": { "type": "Point", "coordinates": [ 122.238162111806744, 6.9544898076721 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.230751085855943, 6.957945610988521 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.226711140301518, 6.980312461872606 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.216196580017481, 6.96764861488082 ] } },
+{ "type": "Feature", "properties": { "Class": 3, "Ecosys_Typ": "Mangrove" }, "geometry": { "type": "Point", "coordinates": [ 122.224013384164152, 6.974653862635783 ] } }
+]
+}
