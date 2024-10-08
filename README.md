@@ -4,9 +4,12 @@ This workshop contains a range of notebooks, broken down into sections.
 
 ## Requirements and environment setup
 
-First, clone this repository: `git clone git@github.com:auspatious/coastal-applications-workshop.git`
+First, log into EASI Asia and open up a terminal.
+Then clone this repository: `git clone git@github.com:auspatious/coastal-applications-workshop.git`
 
 Next, download tide model parameters for south east asia.
+
+(Copy and paste the below commands into the terminal and press enter.)
 
 ```bash
 wget https://files.auspatious.com/coastlines/data/tide_models_vn_ph_2022.zip \
@@ -27,9 +30,14 @@ pip install -r requirements.txt
 python -m ipykernel install --user --name=$MYENV --display-name "Coastal Workshop"
 ```
 
+Now when you run a workshop, you should choose the Kernel as shown below.
+
+![Coastal workshop kernel](images/kernel_select.png)
+
 ## Key links and references
 
 * Element-84's Earth Search STAC Catalog: `https://earth-search.aws.element84.com/v1`
+* Microsoft Planetary Computers STAC Catalog: `https://https://planetarycomputer.microsoft.com/api/stac/v1`
 
 ## Notebooks
 
