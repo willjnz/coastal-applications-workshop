@@ -5,7 +5,7 @@ This workshop contains a range of notebooks, broken down into sections.
 ## Requirements and environment setup
 
 First, log into [EASI Asia](https://hub.asia.easi-eo.solutions/) and open up a terminal.
-Then clone this repository: `git clone git@github.com:auspatious/coastal-applications-workshop.git`
+Then clone this repository: `git clone https://github.com/auspatious/coastal-applications-workshop.git`
 
 Next, download tide model parameters for south east asia.
 
