@@ -25,7 +25,7 @@ wget https://files.auspatious.com/coastlines/data/tide_models_vn_ph_2022.zip \
 ```bash
 MYENV=coastalapps 
 python -m venv ~/venvs/$MYENV
-realpath /env/lib/python3.10/site-packages > ~/venvs/$MYENV/lib/python3.10/site-packages/base_venv.pth
+realpath /env/lib/python3.12/site-packages > ~/venvs/$MYENV/lib/python3.12/site-packages/base_venv.pth
 source ~/venvs/$MYENV/bin/activate
 cd coastal-applications-workshop
 pip install -r requirements.txt
