@@ -4,12 +4,14 @@ This workshop contains a range of notebooks, broken down into sections.
 
 ## Requirements and environment setup
 
-First, log into [EASI Asia](https://hub.asia.easi-eo.solutions/) and open up a terminal.
-Then clone this repository: `git clone https://github.com/auspatious/coastal-applications-workshop.git`
+1. Log into [EASI Asia](https://hub.asia.easi-eo.solutions/) and open up a terminal.
+2. Clone this repository:
 
-Next, download tide model parameters for south east asia.
+```bash
+git clone https://github.com/auspatious/coastal-applications-workshop.git
+```
 
-(Copy and paste the below commands into the terminal and press enter.)
+3. Download tide model parameters for south east asia. (Copy and paste the below commands into the terminal and press enter.)
 
 ```bash
 wget https://files.auspatious.com/coastlines/data/tide_models_vn_ph_2022.zip \
@@ -18,7 +20,7 @@ wget https://files.auspatious.com/coastlines/data/tide_models_vn_ph_2022.zip \
             mv /tmp/tide_models_temp ~/tide_models
 ```
 
-Finally, set up a custom Python environment  for the workshop.
+4. Set up a custom Python environment for the workshop.
 
 ```bash
 MYENV=coastalapps 
